@@ -33,6 +33,7 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
 
       generateToken();
     }
+    // eslint-disable-next-line
   }, [cart]);
 
   const test = (data) => {
